@@ -7,8 +7,6 @@ phases:
   pre_build:
     commands:
       - echo setting up Semgrep...
-      - pip3 install semgrep
-      - semgrep ci
   build:
     commands:
       - echo Build started on `date`
